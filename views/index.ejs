@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Mini JS Game Maker Show Case</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <script type="module" src="/js/collections.js"></script>
+    <script type="module" src="/js/engine-core.js"></script>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div class="bg-nav" style="height: 100px;">
+        <div class="position-relative d-block top-50 translate-middle-y">
+            <h1 class="text-center text-white fw-bold">Mini JS Game Maker</h1>
+        </div>
+    </div>
+    <div class="w-100 h-auto d-inline-block p-0" style="background-color: #115;">
+        <div id="game-view" class="w-70 p-0">
+            <canvas id="game-canvas" class="w-100 h-auto"></canvas>
+        </div>
+    </div>
+    <div class="bg-nav" style="height: 100px;">
+    </div>
 </body>
 </html>
